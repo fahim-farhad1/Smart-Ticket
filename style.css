@@ -1,0 +1,154 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  @import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+}
+/* Header Style*/
+#header {
+  margin-top: 40px;
+}
+/* nav style  */
+#navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 54px;
+  width: 1173px;
+  margin: auto;
+}
+#nav-item {
+  display: flex;
+  gap: 50px;
+  list-style: none;
+  color: #616776;
+}
+#Logo {
+  font-weight: 700;
+  font-size: 36px;
+}
+#navbar button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  width: 130px;
+  height: 50px;
+  border-radius: 12px;
+  background: #d2fbcb;
+  color: #1dd100;
+  border-style: none;
+}
+
+/* Banner Style  */
+
+#banner {
+  background-image: url("/images/banner.png");
+  height: 550px;
+  width: 1171px;
+  margin: auto;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.banner_title {
+  font-size: 64px;
+  font-weight: 800;
+  color: white;
+}
+.green {
+  color: #1dd100;
+  margin-left: 200px;
+}
+#banner_text {
+  color: white;
+  font-style: italic;
+}
+
+#banner button {
+  margin-top: 20px;
+  width: 150px;
+  height: 50px;
+  border-radius: 12px;
+  border-style: none;
+  background-color: #1dd100;
+  color: white;
+}
+/* Count Details  */
+#count-item {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  margin-top: -50px;
+}
+.count {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  background: #eee;
+  border-radius: 15px;
+  width: 308px;
+  gap: 10px;
+  border-bottom: 3px solid #1dd100;
+}
+/* Coupon Style  */
+#coupon-title {
+  text-align: center;
+  margin: 50px 0;
+  font-size: 30px;
+  font-weight: 600;
+}
+#coupon-content {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+.cupon {
+  height: 200px;
+  width: 500px;
+  background: #ffbf0f;
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15px;
+}
+.offer {
+  font-size: 30px;
+  font-weight: 600;
+}
+.code {
+  font-size: 26px;
+  font-weight: 500;
+}
+.cpn-txt {
+  color: #6e6d6d;
+}
+
+.coupon-code {
+  margin-left: 30px;
+}
+.line{
+  border: 1px dashed white;
+  height: 200px;
+}
+#see-all{
+  height: 60px;
+  width: 180px;
+  border: 1px solid #1dd100;
+  border-radius: 8px;
+  margin: 50px ;
+  justify-content: center;
+}
+#best-offer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.pink{
+  background: #F78C9C;
+}
