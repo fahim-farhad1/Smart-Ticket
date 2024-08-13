@@ -132,23 +132,120 @@
 .coupon-code {
   margin-left: 30px;
 }
-.line{
+.line {
   border: 1px dashed white;
   height: 200px;
 }
-#see-all{
+#see-all {
   height: 60px;
   width: 180px;
   border: 1px solid #1dd100;
   border-radius: 8px;
-  margin: 50px ;
+  margin: 50px;
   justify-content: center;
 }
-#best-offer{
+#best-offer {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.pink{
-  background: #F78C9C;
+.pink {
+  background: #f78c9c;
+}
+/* main section style */
+#main {
+  background: #fff;
+  border-top: 2px solid #1dd100;
+  border-top-left-radius: 80px;
+  border-top-right-radius: 80px;
+}
+.main-margin {
+  height: 54px;
+  width: 1173px;
+  margin: auto;
+}
+#main-title {
+  margin-top: 100px;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 500;
+}
+#main-text {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 100px;
+}
+/* price and destination details */
+#bus-detils {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+#bus-detils-title {
+  font-size: 26px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+#aviable-seat {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  background: #bdebb6;
+  color: #1dd100;
+  height: 50px;
+  border-radius: 8px;
+  width: 180px;
+  justify-content: center;
+}
+#bus-div {
+  /* margin-top: 100px; */
+  display: flex;
+  height: 70px;
+  width: 800px;
+  justify-content: space-between;
+  align-items: center;
+}
+#destination-detials {
+  width: 800px;
+  margin-top: 30px;
+}
+#destination-detials hr {
+  border: 1px dashed rgb(189, 189, 189);
+  margin-top: 10px;
+}
+.destination {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+#destinationTo {
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+#destinationTo p {
+  background-color: rgb(237, 248, 238);
+  padding: 20px;
+  border-radius: 10px;
+}
+/* green-margin */
+#green-margin {
+  height: 250px;
+  border-left: 2px dashed #1dd100;
+}
+#main-margin-align {
+  display: flex;
+  align-items:center;
+  gap: 50px;
+}
+#destination-price{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#taka{
+  font-size: 30px;
+  font-weight: 600;
+  
 }
