@@ -293,7 +293,7 @@ hr {
   display: flex;
   justify-content: center;
   gap: 100px;
-  margin-top: 30px;
+  margin-top: 50px;
 }
 .Seat-number span {
   color: #6b7075;
@@ -301,12 +301,12 @@ hr {
   display: flex;
   justify-content: space-between;
 }
-.align{
+.align {
   display: flex;
   justify-content: space-between;
   margin: 10px 0;
 }
-#Selected-seat{
+#Selected-seat {
   background-color: #1dd100;
   font-size: 15px;
   /* margin-top: -2px; */
@@ -314,9 +314,50 @@ hr {
   border-radius: 8px;
   padding: 2px 5px;
 }
-#payment-area{
+#payment-area {
   width: 500px;
 }
-.grey-text{
+.grey-text {
   color: #6b7075;
+}
+#coupon-input {
+  border-style: none;
+  background-color: #eee;
+  padding: 7px 15px;
+  border-radius: 10px;
+  margin-left: 200px;
+  font-size: 15px;
+}
+#apply-btn {
+  height: 40px;
+  width: 100px;
+  border-radius: 10px;
+  color: #fff;
+  background: #1dd100;
+  border-style: none;
+}
+#input-field {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+#input-field input {
+  padding: 10px;
+  border-radius: 10px;
+  border-style: none;
+  background-color: #eee;
+  width: 400px;
+}
+#input-field button {
+  width: 400px;
+  height: 70px;
+  color: white;
+  background: #1dd100;
+  border-style: none;
+  border-radius: 10px;
+}
+.terms a{
+  font-size: 15px;
+  margin-left: 30px;
 }
