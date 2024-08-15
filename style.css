@@ -209,7 +209,7 @@
   width: 800px;
   margin-top: 30px;
 }
-#destination-detials hr {
+hr {
   border: 1px dashed rgb(189, 189, 189);
   margin-top: 10px;
 }
@@ -236,16 +236,87 @@
 }
 #main-margin-align {
   display: flex;
-  align-items:center;
+  align-items: center;
   gap: 50px;
 }
-#destination-price{
+#destination-price {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-#taka{
+#taka {
   font-size: 30px;
   font-weight: 600;
-  
+}
+/* seat and price calculations */
+#seat-and-price-area {
+  margin-top: 100px;
+  display: flex;
+  gap: 20px;
+  /* gap: 20px; */
+}
+.sub-header-text {
+  font-size: 26px;
+  font-weight: 500;
+}
+#aviable-symble {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+#aviable-symble span {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+#aviable-text {
+  color: gray;
+}
+#Selected-text {
+  color: #1dd100;
+}
+#car-wheel {
+  background-color: #d5d5d5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 57px;
+  width: 110px;
+  border-radius: 10px;
+  margin-top: 20px;
+  margin-left: 500px;
+}
+#dash_line {
+  border-right: 2px dashed #1dd100;
+}
+.Seat-number {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  margin-top: 30px;
+}
+.Seat-number span {
+  color: #6b7075;
+  width: 420px;
+  display: flex;
+  justify-content: space-between;
+}
+.align{
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+#Selected-seat{
+  background-color: #1dd100;
+  font-size: 15px;
+  /* margin-top: -2px; */
+  color: white;
+  border-radius: 8px;
+  padding: 2px 5px;
+}
+#payment-area{
+  width: 500px;
+}
+.grey-text{
+  color: #6b7075;
 }
