@@ -296,10 +296,18 @@ hr {
   margin-top: 50px;
 }
 .Seat-number span {
-  color: #6b7075;
   width: 420px;
   display: flex;
   justify-content: space-between;
+}
+.Seat-number button{
+  background-color: rgb(255, 255, 255);
+  height: 40px;
+  width: 80px;
+  border-radius: 10px;
+  border-style: none;
+  color: #737373;
+
 }
 .align {
   display: flex;
@@ -363,8 +371,9 @@ hr {
 }
 /* footer style  */
 #footer{
-  margin: 100px 0px;
+  /* margin: 100px 0px; */
   background: #030712;
   height: 500px;
+  color: white;
 
 }
