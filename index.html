@@ -117,7 +117,7 @@
               </div>
               <div id="aviable-seat">
                 <img src="/images/seat-green.png" alt="" />
-                <p>40</p>
+                <p id="aviableSeatCount">40</p>
                 <p>Seats Left</p>
               </div>
             </div>
@@ -172,91 +172,91 @@
             <span class="Seat-number"
               ><p>A</p>
               <span>
-                <button>A1</button>
-                <button>A2</button>
-                <button>A3</button>
-                <button>A4</button>
+                <button id="A1" onclick="selectSeat(id)">A1</button>
+                <button id="A2" onclick="selectSeat(id)">A2</button>
+                <button id="A3" onclick="selectSeat(id)">A3</button>
+                <button id="A4" onclick="selectSeat(id)">A4</button>
               </span>
             </span>
             <span class="Seat-number"
               ><p>B</p>
               <span>
-                <button>B1</button>
-                <button>B2</button>
-                <button>B3</button>
-                <button>B4</button>
+                <button id="B1" onclick="selectSeat(id)">B1</button>
+                <button id="B2" onclick="selectSeat(id)">B2</button>
+                <button id="B3" onclick="selectSeat(id)">B3</button>
+                <button id="B4" onclick="selectSeat(id)">B4</button>
               </span>
             </span>
             <span class="Seat-number"
               ><p>C</p>
               <span>
-                <button>C1</button>
-                <button>C2</button>
-                <button>C3</button>
-                <button>C4</button>
+                <button id="C1" onclick="selectSeat(id)">C1</button>
+                <button id="C2" onclick="selectSeat(id)">C2</button>
+                <button id="C3" onclick="selectSeat(id)">C3</button>
+                <button id="C4" onclick="selectSeat(id)">C4</button>
               </span>
             </span>
             <span class="Seat-number"
               ><p>D</p>
               <span>
-                <button>D1</button>
-                <button>D2</button>
-                <button>D3</button>
-                <button>D4</button>
+                <button id="D1" onclick="selectSeat(id)">D1</button>
+                <button id="D2" onclick="selectSeat(id)">D2</button>
+                <button id="D3" onclick="selectSeat(id)">D3</button>
+                <button id="D4" onclick="selectSeat(id)">D4</button>
               </span>
             </span>
             <span class="Seat-number"
               ><p>E</p>
               <span>
-                <button>E1</button>
-                <button>E2</button>
-                <button>E3</button>
-                <button>E4</button>
+                <button id="E1" onclick="selectSeat(id)">E1</button>
+                <button id="E2" onclick="selectSeat(id)">E2</button>
+                <button id="E3" onclick="selectSeat(id)">E3</button>
+                <button id="E4" onclick="selectSeat(id)">E4</button>
               </span>
             </span>
             <span class="Seat-number"
               ><p>F</p>
               <span>
-                <button>F1</button>
-                <button>F2</button>
-                <button>F3</button>
-                <button>F4</button>
+                <button id="F1" onclick="selectSeat(id)">F1</button>
+                <button id="F2" onclick="selectSeat(id)">F2</button>
+                <button id="F3" onclick="selectSeat(id)">F3</button>
+                <button id="F4" onclick="selectSeat(id)">F4</button>
               </span>
             </span>
             <span class="Seat-number"
               ><p>G</p>
               <span>
-                <button>G1</button>
-                <button>G2</button>
-                <button>G3</button>
-                <button>G4</button>
+                <button id="G1" onclick="selectSeat(id)">G1</button>
+                <button id="G2" onclick="selectSeat(id)">G2</button>
+                <button id="G3" onclick="selectSeat(id)">G3</button>
+                <button id="G4" onclick="selectSeat(id)">G4</button>
               </span>
             </span>
             <span class="Seat-number"
               ><p>H</p>
               <span>
-                <button>H1</button>
-                <button>H2</button>
-                <button>H3</button>
-                <button>H4</button>
+                <button id="H1" onclick="selectSeat(id)">H1</button>
+                <button id="H2" onclick="selectSeat(id)">H2</button>
+                <button id="H3" onclick="selectSeat(id)">H3</button>
+                <button id="H4" onclick="selectSeat(id)">H4</button>
               </span>
             </span>
             <span class="Seat-number"
               ><p>I</p>
               <span>
-                <button>I1</button>
-                <button>I2</button>
-                <button>I3</button>
-                <button>I4</button>
+                <button id="I1" onclick="selectSeat(id)">I1</button>
+                <button id="I2" onclick="selectSeat(id)">I2</button>
+                <button id="I3" onclick="selectSeat(id)">I3</button>
+                <button id="I4" onclick="selectSeat(id)">I4</button>
               </span>
             </span>
             <span class="Seat-number"
               ><p>J</p>
               <span>
-                <button>J1</button>
-                <button>J2</button>
-                <button>J3</button>
-                <button>J4</button>
+                <button id="J1" onclick="selectSeat(id)">J1</button>
+                <button id="J2" onclick="selectSeat(id)">J2</button>
+                <button id="J3" onclick="selectSeat(id)">J3</button>
+                <button id="J4" onclick="selectSeat(id)">J4</button>
               </span>
             </span>
           </div>
@@ -268,20 +268,20 @@
             <hr style="margin-bottom: 50px" />
             <!-- Destination Details  -->
             <span class="align">
-              <p>Seat <span id="Selected-seat">2</span></p>
+              <p>Seat <span id="Selected-seat">0</span></p>
               <p>Class</p>
               <p>Price</p>
             </span>
             <hr />
-            <div class="align grey-text">
-              <p>C2</p>
-              <p>Economoy</p>
-              <p>550</p>
+            <div id="bill-section">
+              <p id="no-seat" style="text-align: center; margin: 20px 0px">
+                No Seat Selected
+              </p>
             </div>
             <hr />
-            <span class="align"
-              ><p>Total Price</p>
-              <p>BDT <span>1100</span></p></span
+            <span class="align">
+              <p>Total Price</p>
+              <p>BDT <span id="total-price">00</span></p></span
             >
             <!-- apply coupon area -->
             <span class="align">
@@ -294,7 +294,7 @@
             </span>
             <span class="align" style="margin-top: 40px"
               ><p>Grand Total</p>
-              <p>BDT <span>1100</span></p></span
+              <p>BDT <span>00</span></p></span
             >
             <!-- form  -->
             <div id="input-field">
@@ -314,9 +314,14 @@
         </div>
       </div>
     </main>
-    <!-- <footer>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci voluptatibus culpa incidunt ratione, modi est quas iusto. Perspiciatis veniam at, libero vitae doloribus sint reprehenderit laboriosam dolorum, et quae quasi explicabo officia iste facere quam porro eum, ipsum fugit impedit. Inventore, in iusto. Fuga accusamus dignissimos modi molestias? Possimus, reprehenderit.
-    </footer> -->
+    <footer>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci
+      voluptatibus culpa incidunt ratione, modi est quas iusto. Perspiciatis
+      veniam at, libero vitae doloribus sint reprehenderit laboriosam dolorum,
+      et quae quasi explicabo officia iste facere quam porro eum, ipsum fugit
+      impedit. Inventore, in iusto. Fuga accusamus dignissimos modi molestias?
+      Possimus, reprehenderit.
+    </footer>
     <!-- footer  -->
 
     <script src="script.js"></script>
